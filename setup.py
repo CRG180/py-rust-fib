@@ -1,5 +1,9 @@
 from setuptools import find_packages, setup
 
+with open("README.md", "r") as fh:
+    long_description =fh.read()
+
+
 setup(
     name="py-rust-fib",
     version = "0.0.1",
@@ -14,6 +18,7 @@ setup(
         "Programing Language ::  Python ::3",
         "Operating System :: OS Independent",
     ],
+    long_description=long_description, 
     python_requires = ">=3",
     test_requires = ['pytest']
 )
