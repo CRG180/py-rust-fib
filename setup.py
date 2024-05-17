@@ -20,5 +20,7 @@ setup(
     ],
     long_description=long_description, 
     python_requires = ">=3",
-    test_requires = ['pytest']
+    test_requires = ['pytest'],
+        entry_points = { 'console_scripts': [
+        'fib-number = py_rust_fib.cmd.fib_numb:fib_numb']}
 )
