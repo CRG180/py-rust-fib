@@ -11,5 +11,5 @@ def fib_numb() -> None:
     print(f"Your Fibonacci number is: " \
     f"{recurring_fibonacci_number(number=args.number)}")
     
-    enty_points = { 'console_scripts': [
+    entry_points = { 'console_scripts': [
         'fib-number = py_rust_fib.com.fib_numb:fib_numb']}
