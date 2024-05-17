@@ -12,4 +12,4 @@ def fib_numb() -> None:
     f"{recurring_fibonacci_number(number=args.number)}")
     
     entry_points = { 'console_scripts': [
-        'fib-number = py_rust_fib.com.fib_numb:fib_numb']}
+        'fib-number = py_rust_fib.cmd.fib_numb:fib_numb']}
